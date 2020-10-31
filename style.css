@@ -95,3 +95,13 @@ text-align:center;
     text-align: center;}
 
 .work-hour{outline:1px dashed #ccc;}
+
+/*utilized by jquery listeners*/
+.focused-color{
+    color:#328592;
+}
+.focused-cell{
+    background-color:#9feefa9b;
+    color:#328592;
+    font-weight:bold;
+}
