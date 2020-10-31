@@ -32,7 +32,7 @@ text-align:center;}
         -ms-flex-pack: justify;
         justify-content: center;
 }
-.hour-number{text-align:center;padding:7px;background-color:#b8b6b682;font-size:0.8em;}
+.hour-number{text-align:center;padding:7px;background-color:#e9e9e9;font-size:0.8em;}
 #bottom-section{margin-top:4.3em;}
 .do-this-thing{width: 100%;
     line-height:44px;
@@ -46,8 +46,15 @@ text-align:center;}
     color:#2d3333;
 }
 .do-this-thing:focus{
-    background: #e9e9e9ba;
+    background: #cef8ff6b;
+    color: #599fab;
+    font-weight:500;
 }
+.work-hour:focus{color:pink;}
+
+.do-this-thing:focus::placeholder {
+    color: transparent;
+  }
 .icon-arrow-right{color:#2d3333;}
 
 .avatar{
