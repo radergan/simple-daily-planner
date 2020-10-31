@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+<link rel="stylesheet" href="./style.css">
+<title>Simple Daily Planner</title>
+</head>
+
+<body>
+<div class="container" style="padding:0;margin:0;">
+
+    <nav id="top-nav" class="navbar">
+        <section class="navbar-section columns" style="text-align:center;">
+            <div class="col-12">
+                <figure class="avatar ml-2 main-avatar"><img src="./images/avatar.jpg" alt="Avatar">
+                </figure>
+                <a href="https://github.com/radergan">github.com/<b>radergan</b></a>
+            </div>
+        </section>
+    </nav>
+
+    <main id="main" class="container grid-md">
+        <section id="top-section">
+            <div class="columns">
+                <div class="column col-6 col-sm-12">
+                    <span id="app-title">Simple Daily Planner</span>
+                    <p>A crappy app for planning your crap.</p>
+                </div>
+                <div class="column col-6 col-sm-12">
+                    <span id="date-time" class="label label-rounded label-secondary" style="padding:12px;font-size:1.4em;font-weight:700;"><b>October 31st, 2020</b>  4:32pm</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="application-section">
+
+            <div id="whole-shift container grid-sm" style="padding:0em 4em 0em 4em;">
+                <div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="9am">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 9am, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div><div class="work-hour columns col-gapless" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="10am">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 10am, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div><div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="11am">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 11am, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div><div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="12pm">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 12pm, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div><div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="1pm">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 1pm, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div><div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="2pm">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 2pm, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div><div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="3pm">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 3pm, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div><div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="4pm">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 4pm, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-hour columns" id="pm-five">
+                    <div class="column col-2 col-sm-12 hour-number secondary-bg">
+                        <figure class="avatar time-bubble" data-initial="5pm">
+                        </figure>
+                    </div>
+                    <div class="column col-10 col-sm-12 things-to-do has-icon-left">
+                        <div class="has-icon-left">
+                            <input type="text" class="do-this-thing form-input" placeholder="By 5pm, I will ...">
+                            <i class="form-icon icon icon-arrow-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </section>
+
+        <section id="bottom-section" class="text-center">
+            <a class="btn" href="github.com">Visit GitHub Repository</a>
+        </section>
+
+    </main>
+</div>
+
+</body>
+
+</html>
+</html>
